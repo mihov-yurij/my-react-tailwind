@@ -22,7 +22,9 @@ export default function Form() {
             <label htmlFor={field.name}>{field.label}</label>
             <input type={field.type} id={field.name} name={field.name} />
           </div>
-        ))}
+        ))};
+         <button type="submit">Sign Up</button> 
+
     </form>
   );
 }
